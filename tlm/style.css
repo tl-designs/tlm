@@ -1,0 +1,55 @@
+/*Theme Name: TL Designs: Design + Development
+Theme URI: http://www.tl-designs.com
+Description: Responsive Portfolio WordPress Theme
+Version: 1
+Author: Tiger Lily MacFaydian */
+*
+body{
+	text-align: center;
+}
+/*.logo{
+    margin: 0 auto;
+    width: 100%;
+    height: 100vh;
+}*/
+#social {
+    background: black;
+    color: #fafafa;
+    padding: 25px 0;
+    overflow: hidden;
+    text-align: center;
+    float: left;
+    width: 100%;
+    position: relative;
+}
+#social ul {
+    clear:left;
+    float:left;
+    list-style:none;
+    margin:0;
+    padding:0;
+    position:relative;
+    left:50%;
+    text-align:center;
+}
+#social li {
+	display:block;
+    float:left;
+    list-style:none;
+    margin:0;
+    padding:0;
+    position:relative;
+    right:50%;
+}
+#social ul li img
+{
+    margin: 20px;
+}
+#social{
+    height: 200px;
+    background-color: black;
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 100%;
+}
